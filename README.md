@@ -23,6 +23,12 @@ And hit YuPac. It will minify and combine the files, preserving their order in y
 
 YuPac will notify you of its succes, showing a list of files that were successfully compressed (and any that were skipped).
 
+
+Why Would You Use It?
+---------------------
+
+Sometimes, code deployment doesn't need to be complicated. Sometimes, you just need to pack a bunch of javascript files, and don't feel like turning on and setting up yet another app just to handle this.
+
 Things That It Deals With Pretty Well
 -------------------------------------
 
