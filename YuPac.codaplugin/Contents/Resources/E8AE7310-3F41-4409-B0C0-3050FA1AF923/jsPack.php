@@ -39,10 +39,14 @@ $output = "";
 /* 4: run each file through yui */
 $goodFiles = array();
 $badFiles = array();
+
+growl("YuPac", "Compiling ". count($jsFileNames) . " files...");
+
 foreach($jsFileNames as $url)
 {
 	if(preg_match('/http|www/', $url) == 1)
 	{
+		$badFiles[] = $url;
 		continue;
 	}
 	$result =  shell_exec('java -jar ' . $YUI . ' ' . escapeshellarg($filepath) ."/". $url);
