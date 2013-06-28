@@ -2,7 +2,7 @@ YuPac
 =====
 
 YuPac--A YUI based javascript packer for Coda 2.
-[Download it![(https://github.com/mjvotaw/YuPac/archive/master.zip)
+[Download it!](https://github.com/mjvotaw/YuPac/archive/master.zip)
 
 What Does This Do?
 -------------------
@@ -15,17 +15,11 @@ How Do You Use It?
 
 In you html, select the javascript files you want to compress:
 
->	 <script type="text/javascript" src="js/plugins/CSSPlugin.min.js"></script>
->    <script type="text/javascript" src="js/easing/EasePack.min.js"></script>
->	 <script src="js/slider.js" type="text/javascript"></script>
->    <script src="js/fit.js" type="text/javascript"></script>
->    <script src="js/animations.js" type="text/javascript"></script>
->    <script src="js/blog.js"></script>
->    <script src="js/main.js" type="text/javascript"></script>
+![Select javascript html](/images/select.png)
 
 And hit YuPac. It will minify and combine the files, preserving their order in your script. When it's done, it will place a file in the root of your project, and a script tag after your selection:
 
->	<script src="compressed.js"></script>
+![YuPac Adds a script tag](/images/compressed.png)
 
 YuPac will notify you of its succes, showing a list of files that were successfully compressed (and any that were skipped).
 
