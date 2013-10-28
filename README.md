@@ -45,6 +45,11 @@ It currently offers no customization of YUI parameters or output directory or fi
 Changelog
 =========
 
+v1.0.1
+------
+- YuPac now uses the path of the current file instead of the current Site's base path. Now you can compress files that are pointed to from within a subdirectory, and everything will work how you'd think it should, instead of, well, not.
+- Fixed a really stupid issue that didn't allow script tags with single quotes (') to be compressed.
+
 v1.0.0
 ------
 Initial release.
