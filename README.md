@@ -47,7 +47,9 @@ It currently only shows notifications through [Growl](http://growl.info/). This 
 
 Changelog
 =========
-
+v1.0.3
+------
+-Now it actually includes the yuicompressor file, so it will ACTUALLY work for you :/
 
 v1.0.2
 ------
