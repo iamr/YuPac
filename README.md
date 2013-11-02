@@ -34,6 +34,8 @@ Things That It Deals With Pretty Well
 
 Yupac will ignore commented code, either <!-- -->, /* */, or // type comments.
 
+It will spit out confirmations of which files were successfully compressed, and which failed (and a reason if it can).
+
 Limitations
 -----------
 
@@ -41,9 +43,17 @@ YuPac will only minify local javascript files. If you include a src from an exte
 
 It currently offers no customization of YUI parameters or output directory or filename. If there is interest in these features, I will add them in the future.
 
+It currently only shows notifications through [Growl](http://growl.info/). This is mostly my problem, as I started developing this on 10.7, before Notifications were built into the OS.
 
 Changelog
 =========
+
+
+v1.0.2
+------
+-YuPac now will show errors when a file (for whatever reason) fails to compile.
+-YUI now compresses with --preserve-semi option on.
+-Fixed a bunch of stupid bugs that were totally dumb and all my fault.
 
 v1.0.1
 ------
